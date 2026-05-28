@@ -1,0 +1,45 @@
+{
+  "id": "2-chainz",
+  "name": "2 Chainz",
+  "aliases": ["Tauheed Epps", "Tity Boi"],
+  "genres": ["hip hop", "southern hip hop", "trap"],
+  "locality": "Atlanta, Georgia",
+  "confidence": "verified",
+  "summary": "American rapper from Atlanta, Georgia.",
+  "disambiguation": "The Pavilion listing for Lil Wayne, Tyga, The Game, and 2 Chainz matches the well-known rapper 2 Chainz.",
+  "reviewNotes": "Seeded from a manual submission. Bandcamp intentionally omitted because no artist Bandcamp page was found.",
+  "supportPriority": ["official", "linktree", "instagram", "facebook", "youtube", "youtubeMusic", "soundcloud", "discogsArtist", "discogsAlias", "wikipedia", "appleMusic", "spotify", "deezer", "tidal", "amazonMusic", "ticketmaster", "search"],
+  "links": [
+    { "type": "linktree", "label": "Linktree", "url": "https://linktr.ee/TheBiggestToni", "confidence": "verified", "source": "manual" },
+    { "type": "official", "label": "Official", "url": "http://www.2chainz.com/", "confidence": "verified", "source": "manual" },
+    { "type": "facebook", "label": "Facebook", "url": "https://www.facebook.com/2Chainz", "confidence": "verified", "source": "manual" },
+    { "type": "instagram", "label": "Instagram", "url": "https://instagram.com/2chains", "confidence": "verified", "source": "manual" },
+    { "type": "twitter", "label": "X/Twitter", "url": "https://x.com/2chains", "confidence": "verified", "source": "manual" },
+    { "type": "tiktok", "label": "TikTok", "url": "https://www.tiktok.com/@2chainz", "confidence": "verified", "source": "manual" },
+    { "type": "youtube", "label": "YouTube", "url": "https://www.youtube.com/@2chainz", "confidence": "verified", "source": "manual" },
+    { "type": "soundcloud", "label": "SoundCloud", "url": "https://soundcloud.com/2chainz", "confidence": "verified", "source": "manual" },
+    { "type": "discogsArtist", "label": "Discogs: 2 Chainz", "url": "https://www.discogs.com/artist/2523290-2-Chainz", "confidence": "verified", "source": "manual" },
+    { "type": "wikipedia", "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/2_Chainz", "confidence": "verified", "source": "manual" },
+    { "type": "appleMusic", "label": "Apple Music", "url": "https://music.apple.com/us/artist/2-chainz/435300447", "confidence": "verified", "source": "manual" },
+    { "type": "amazonMusic", "label": "Amazon Music", "url": "https://music.amazon.com/artists/B006H1V2IA/2chainz", "confidence": "verified", "source": "manual" },
+    { "type": "ticketmaster", "label": "Ticketmaster", "url": "https://www.ticketmaster.com/2-chainz-tickets/artist/1615064", "confidence": "verified", "source": "manual" },
+    { "type": "qobuz", "label": "Qobuz", "url": "https://www.qobuz.com/us-en/interpreter/2-chainz/712082", "confidence": "verified", "source": "manual" },
+    { "type": "deezer", "label": "Deezer", "url": "https://www.deezer.com/us/artist/1384338", "confidence": "verified", "source": "manual" },
+    { "type": "tidal", "label": "Tidal", "url": "https://tidal.com/artist/3970137", "confidence": "verified", "source": "manual" },
+    { "type": "spotify", "label": "Spotify", "url": "https://open.spotify.com/artist/17lzZA2AlOHwCwFALHttmp", "confidence": "verified", "source": "manual" }
+  ],
+  "evidence": [
+    {
+      "url": "https://www.facebook.com/2Chainz",
+      "note": "Official social profile gives location as Atlanta, Georgia."
+    },
+    {
+      "url": "https://linktr.ee/TheBiggestToni",
+      "note": "Manual submission identifies this as the artist's Linktree hub."
+    },
+    {
+      "url": "https://www.discogs.com/artist/2523290-2-Chainz",
+      "note": "Discogs artist page matches the performer name."
+    }
+  ]
+}

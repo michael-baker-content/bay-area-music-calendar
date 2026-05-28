@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Venue Review - Bay Area Show Explorer</title>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="kicker">Venue enrichment</p>
+        <h1>Venue Review</h1>
+      </div>
+      <nav class="nav-actions" aria-label="Project pages">
+        <a class="source-link" href="index.html">Shows</a>
+        <a class="source-link" href="review.html">Artists</a>
+        <button id="exportButton" class="source-link button-link" type="button">Export</button>
+      </nav>
+    </header>
+
+    <main class="review-layout">
+      <section class="controls" aria-label="Venue filters">
+        <label class="search">
+          <span>Search</span>
+          <input id="venueSearch" type="search" placeholder="Venue, city, region, link">
+        </label>
+
+        <div class="filter-group" role="group" aria-label="Quick filters">
+          <button class="chip active" type="button" data-review-filter="review">Needs review</button>
+          <button class="chip" type="button" data-review-filter="likely">Likely</button>
+          <button class="chip" type="button" data-review-filter="verified">Verified</button>
+          <button class="chip" type="button" data-review-filter="rejected">Rejected</button>
+          <button class="chip" type="button" data-review-filter="all">All</button>
+        </div>
+      </section>
+
+      <section class="summary" aria-live="polite">
+        <div>
+          <strong id="venueTotal">0</strong>
+          <span>venues</span>
+        </div>
+        <div>
+          <strong id="reviewTotal">0</strong>
+          <span>to verify</span>
+        </div>
+        <div>
+          <strong id="verifiedTotal">0</strong>
+          <span>verified</span>
+        </div>
+      </section>
+
+      <section class="review-grid">
+        <aside id="venueQueue" class="queue-list" aria-label="Venues"></aside>
+
+        <section class="review-panel" aria-label="Selected venue">
+          <form id="venueForm">
+            <div class="form-heading">
+              <div>
+                <p class="kicker">Selected venue</p>
+                <h2 id="selectedName">Choose a venue</h2>
+              </div>
+              <span id="selectedConfidence" class="confidence review">review</span>
+            </div>
+
+            <div class="field-grid two-column">
+              <label>
+                <span>Confidence</span>
+                <select id="confidenceInput">
+                  <option value="review">Needs review</option>
+                  <option value="likely">Likely match</option>
+                  <option value="verified">Verified</option>
+                  <option value="rejected">Rejected</option>
+                </select>
+              </label>
+
+              <label>
+                <span>Status</span>
+                <select id="statusInput">
+                  <option value="unknown">Unknown</option>
+                  <option value="active">Active</option>
+                  <option value="inactive">Inactive</option>
+                  <option value="closed">Closed</option>
+                  <option value="seasonal">Seasonal</option>
+                </select>
+              </label>
+            </div>
+
+            <label>
+              <span>Display Name</span>
+              <input id="displayNameInput" type="text" placeholder="Full public venue name">
+            </label>
+
+            <div class="field-grid two-column">
+              <label>
+                <span>Venue Type</span>
+                <input id="venueTypeInput" type="text" placeholder="club, theater, gallery, arena">
+              </label>
+
+              <label>
+                <span>Age Policy</span>
+                <input id="agePolicyInput" type="text" placeholder="all-ages, 21+, mixed, unknown">
+              </label>
+            </div>
+
+            <div class="field-grid two-column">
+              <label>
+                <span>City</span>
+                <input id="cityInput" type="text" placeholder="San Francisco, Oakland">
+              </label>
+
+              <label>
+                <span>Region</span>
+                <input id="regionInput" type="text" placeholder="SF, East Bay, South Bay">
+              </label>
+            </div>
+
+            <label>
+              <span>Address</span>
+              <input id="addressInput" type="text" placeholder="Street address">
+            </label>
+
+            <section class="link-editor" aria-label="Merge venue">
+              <div class="section-heading">
+                <h3>Combine Entries</h3>
+              </div>
+              <div class="field-grid two-column">
+                <label>
+                  <span>Merge Into</span>
+                  <select id="mergeTargetInput"></select>
+                </label>
+                <label>
+                  <span>Action</span>
+                  <button id="mergeVenueButton" class="chip" type="button">Merge Selected Venue</button>
+                </label>
+              </div>
+            </section>
+
+            <div class="field-grid two-column">
+              <label>
+                <span>Capacity</span>
+                <input id="capacityInput" type="text" placeholder="Approximate capacity">
+              </label>
+
+              <label>
+                <span>Coordinates</span>
+                <input id="geoInput" type="text" placeholder="latitude, longitude">
+              </label>
+            </div>
+
+            <label>
+              <span>Summary</span>
+              <textarea id="summaryInput" rows="3" placeholder="Short public venue description"></textarea>
+            </label>
+
+            <section class="link-editor" aria-label="Typed links">
+              <div class="section-heading">
+                <h3>Links</h3>
+                <button id="addLinkButton" class="chip" type="button">Add Link</button>
+              </div>
+              <div id="linksEditor" class="links-editor"></div>
+              <details id="rejectedLinksSection" class="rejected-links-section">
+                <summary>Rejected Links <span id="rejectedLinkCount">0</span></summary>
+                <div id="rejectedLinksEditor" class="links-editor"></div>
+              </details>
+            </section>
+
+            <label>
+              <span>Review Notes</span>
+              <textarea id="noteInput" rows="4" placeholder="Private notes about ambiguity or source checks"></textarea>
+            </label>
+
+            <div class="form-actions">
+              <button class="chip active" type="submit">Save Venue</button>
+              <button id="enrichButton" class="chip" type="button">Enrich Venue</button>
+              <button id="resetButton" class="chip" type="button">Revert Form</button>
+              <button id="pruneArtistsButton" class="chip danger-chip" type="button">Prune Rejected-Venue Artists</button>
+              <button id="clearLocalButton" class="chip danger-chip" type="button">Clear Browser Store</button>
+              <span id="saveStatus" class="save-status" aria-live="polite"></span>
+            </div>
+          </form>
+
+          <div class="appearances">
+            <h3>Upcoming Events</h3>
+            <div id="appearanceList"></div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="data/venues.js"></script>
+    <script src="assets/venue-review.js"></script>
+  </body>
+</html>

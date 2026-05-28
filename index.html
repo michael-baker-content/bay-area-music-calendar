@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bay Area Show Explorer</title>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="kicker">SF Bay Area music</p>
+        <h1>Show Explorer</h1>
+      </div>
+      <nav class="nav-actions" aria-label="Project pages">
+        <a class="source-link" href="review.html">Review</a>
+        <a class="source-link" href="venue-review.html">Venues</a>
+        <a class="source-link" href="https://jon.luini.com/thelist/date.html" target="_blank" rel="noreferrer">The List</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="controls" aria-label="Show filters">
+        <label class="search">
+          <span>Search</span>
+          <input id="searchInput" type="search" placeholder="Artist, venue, neighborhood, genre">
+        </label>
+
+        <div class="filter-group" role="group" aria-label="Quick filters">
+          <button class="chip active" type="button" data-filter="all">All</button>
+          <button class="chip" type="button" data-filter="tonight">Tonight</button>
+          <button class="chip" type="button" data-filter="allAges">All ages</button>
+          <button class="chip" type="button" data-filter="local">Local-first</button>
+          <button class="chip" type="button" data-filter="needsReview">Needs review</button>
+        </div>
+      </section>
+
+      <section class="summary" aria-live="polite">
+        <div>
+          <strong id="eventCount">0</strong>
+          <span>shows</span>
+        </div>
+        <div>
+          <strong id="artistCount">0</strong>
+          <span>artists</span>
+        </div>
+        <div>
+          <strong id="reviewCount">0</strong>
+          <span>to verify</span>
+        </div>
+      </section>
+
+      <section id="eventList" class="event-list" aria-label="Concert listings"></section>
+    </main>
+
+    <template id="eventTemplate">
+      <article class="event">
+        <div class="event-meta">
+          <time class="event-date"></time>
+          <span class="event-venue"></span>
+          <span class="event-detail"></span>
+        </div>
+        <div class="artist-list"></div>
+      </article>
+    </template>
+
+    <template id="artistTemplate">
+      <article class="artist-card">
+        <div class="artist-main">
+          <div>
+            <h2 class="artist-name"></h2>
+            <p class="artist-tags"></p>
+          </div>
+          <span class="confidence"></span>
+        </div>
+        <p class="artist-note"></p>
+        <div class="artist-links"></div>
+      </article>
+    </template>
+
+    <script src="data/sample-events.js"></script>
+    <script src="data/imported-events.js"></script>
+    <script src="data/artists.js"></script>
+    <script src="data/venues.js"></script>
+    <script src="assets/app.js"></script>
+  </body>
+</html>

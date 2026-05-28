@@ -1,0 +1,45 @@
+{
+  "id": "the-darts",
+  "name": "The Darts",
+  "aliases": ["The Darts US"],
+  "genres": ["garage rock", "punk", "psych rock"],
+  "locality": "touring",
+  "confidence": "verified",
+  "summary": "Garage punk band; this listing appears to match The Darts US.",
+  "disambiguation": "Verified against artist-controlled pages using the same band name and current activity.",
+  "reviewNotes": "Prioritized Bandcamp and official/social links over streaming links.",
+  "supportPriority": ["bandcamp", "official", "instagram", "facebook", "youtube", "youtubeMusic", "musicbrainz", "spotify", "search"],
+  "links": [
+    {
+      "type": "bandcamp",
+      "label": "Bandcamp",
+      "url": "https://thedartsus.bandcamp.com/",
+      "confidence": "verified",
+      "source": "manual"
+    },
+    {
+      "type": "official",
+      "label": "Official",
+      "url": "https://www.thedarts.us/",
+      "confidence": "verified",
+      "source": "manual"
+    },
+    {
+      "type": "instagram",
+      "label": "Instagram",
+      "url": "https://www.instagram.com/thedartsus/",
+      "confidence": "verified",
+      "source": "manual"
+    }
+  ],
+  "evidence": [
+    {
+      "url": "https://thedartsus.bandcamp.com/",
+      "note": "Artist-controlled Bandcamp page uses the matching band name."
+    },
+    {
+      "url": "https://www.thedarts.us/",
+      "note": "Official site links the same artist identity."
+    }
+  ]
+}

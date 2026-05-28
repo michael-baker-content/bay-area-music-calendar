@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Artist Review - Bay Area Show Explorer</title>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="kicker">Artist enrichment</p>
+        <h1>Review Queue</h1>
+      </div>
+      <nav class="nav-actions" aria-label="Project pages">
+        <a class="source-link" href="index.html">Shows</a>
+        <a class="source-link" href="venue-review.html">Venues</a>
+        <button id="exportButton" class="source-link button-link" type="button">Export</button>
+      </nav>
+    </header>
+
+    <main class="review-layout">
+      <section class="controls" aria-label="Artist filters">
+        <label class="search">
+          <span>Search</span>
+          <input id="artistSearch" type="search" placeholder="Artist, venue, tag, link">
+        </label>
+
+        <div class="filter-group" role="group" aria-label="Quick filters">
+          <button class="chip active" type="button" data-review-filter="review">Needs review</button>
+          <button class="chip" type="button" data-review-filter="likely">Likely</button>
+          <button class="chip" type="button" data-review-filter="verified">Verified</button>
+          <button class="chip" type="button" data-review-filter="all">All</button>
+        </div>
+      </section>
+
+      <section class="summary" aria-live="polite">
+        <div>
+          <strong id="artistTotal">0</strong>
+          <span>artists</span>
+        </div>
+        <div>
+          <strong id="reviewTotal">0</strong>
+          <span>to verify</span>
+        </div>
+        <div>
+          <strong id="verifiedTotal">0</strong>
+          <span>verified</span>
+        </div>
+      </section>
+
+      <section class="review-grid">
+        <aside id="artistQueue" class="queue-list" aria-label="Artists"></aside>
+
+        <section class="review-panel" aria-label="Selected artist">
+          <form id="artistForm">
+            <div class="form-heading">
+              <div>
+                <p class="kicker">Selected artist</p>
+                <h2 id="selectedName">Choose an artist</h2>
+              </div>
+              <span id="selectedConfidence" class="confidence review">review</span>
+            </div>
+
+            <label>
+              <span>Confidence</span>
+              <select id="confidenceInput">
+                <option value="review">Needs review</option>
+                <option value="likely">Likely match</option>
+                <option value="verified">Verified</option>
+              </select>
+            </label>
+
+            <label>
+              <span>Locality</span>
+              <input id="localityInput" type="text" placeholder="Bay Area, Oakland, touring, unknown">
+            </label>
+
+            <label>
+              <span>Genres</span>
+              <input id="genresInput" type="text" placeholder="punk, shoegaze, jazz">
+            </label>
+
+            <label>
+              <span>Support Priority</span>
+              <input id="priorityInput" type="text" readonly placeholder="Verified link types appear here">
+            </label>
+
+            <label>
+              <span>Summary</span>
+              <textarea id="summaryInput" rows="3" placeholder="Short public description, once the identity is trusted"></textarea>
+            </label>
+
+            <section class="link-editor" aria-label="Typed links">
+              <div class="section-heading">
+                <h3>Links</h3>
+                <button id="addLinkButton" class="chip" type="button">Add Link</button>
+              </div>
+              <div id="linksEditor" class="links-editor"></div>
+              <details id="rejectedLinksSection" class="rejected-links-section">
+                <summary>Rejected Links <span id="rejectedLinkCount">0</span></summary>
+                <div id="rejectedLinksEditor" class="links-editor"></div>
+              </details>
+            </section>
+
+            <label>
+              <span>Research Notes</span>
+              <textarea id="noteInput" rows="4" placeholder="Private notes about what was checked or what still needs checking"></textarea>
+            </label>
+
+            <div class="form-actions">
+              <button class="chip active" type="submit">Save Artist</button>
+              <button id="enrichButton" class="chip" type="button">Enrich Artist</button>
+              <button id="resetButton" class="chip" type="button">Revert Form</button>
+              <button id="clearLocalButton" class="chip danger-chip" type="button">Clear Browser Store</button>
+              <span id="saveStatus" class="save-status" aria-live="polite"></span>
+            </div>
+          </form>
+
+          <div class="appearances">
+            <h3>Upcoming Shows</h3>
+            <div id="appearanceList"></div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="data/artists.js"></script>
+    <script src="assets/review.js"></script>
+  </body>
+</html>
