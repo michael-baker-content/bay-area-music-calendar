@@ -1,5 +1,5 @@
 window.SHOW_EXPLORER_VENUES = {
-  "generatedAt": "2026-05-28T02:07:23.593Z",
+  "generatedAt": "2026-05-28T06:15:59.324Z",
   "venues": {
     "20-spot": {
       "id": "20-spot",
@@ -62,7 +62,7 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "22nd & Bartlett",
       "displayName": "22nd & Bartlett",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "seasonal",
       "venueType": "unknown",
@@ -111,7 +111,8 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T04:43:26.807Z"
     },
     "4-star-theater": {
       "id": "4-star-theater",
@@ -314,7 +315,7 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "Anthony & Marissa's",
       "displayName": "Anthony & Marissa's",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "active",
       "venueType": "unknown",
@@ -356,7 +357,8 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T04:44:29.018Z"
     },
     "arcana": {
       "id": "arcana",
@@ -517,7 +519,7 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "Athen's",
       "displayName": "Athen's",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -559,7 +561,8 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T04:44:47.418Z"
     },
     "august-hall": {
       "id": "august-hall",
@@ -1042,7 +1045,7 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "Buddy's",
       "displayName": "Buddy's",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -1084,7 +1087,8 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T04:44:57.886Z"
     },
     "cafe-du-nord": {
       "id": "cafe-du-nord",
@@ -1210,9 +1214,9 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "Castro",
       "displayName": "Castro",
       "aliases": [],
-      "confidence": "review",
-      "mergedInto": "",
-      "status": "unknown",
+      "confidence": "rejected",
+      "mergedInto": "castro-theater",
+      "status": "inactive",
       "venueType": "unknown",
       "city": "",
       "region": "",
@@ -1222,7 +1226,7 @@ window.SHOW_EXPLORER_VENUES = {
       "capacity": "",
       "summary": "",
       "accessibilityNotes": "",
-      "reviewNotes": "",
+      "reviewNotes": "Merged into Castro Theater.",
       "links": [
         {
           "type": "theList",
@@ -1280,13 +1284,16 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T04:45:22.702Z"
     },
     "castro-theater": {
       "id": "castro-theater",
       "name": "Castro Theater",
       "displayName": "Castro Theater",
-      "aliases": [],
+      "aliases": [
+        "Castro"
+      ],
       "confidence": "likely",
       "mergedInto": "",
       "status": "active",
@@ -1326,7 +1333,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-05-28T02:07:23.588Z",
+        "lastImportedAt": "2026-05-28T02:07:23.591Z",
         "appearances": [
           {
             "eventId": "2026-05-29-castro-theater-inji",
@@ -1341,6 +1348,41 @@ window.SHOW_EXPLORER_VENUES = {
             "title": "Dadi Freyr / Briet",
             "details": "a/a 7pm/8pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-05-27-castro-fred-armisen-comedy-for-musicans",
+            "date": "2026-05-27",
+            "title": "Fred Armisen (comedy for musicans)",
+            "details": "a/a $65.25+ 7pm/8pm # (seated)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-05-28-castro-aldous-harding",
+            "date": "2026-05-28",
+            "title": "Aldous Harding / Sam Burton",
+            "details": "a/a $60-$41 7pm/8pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-05-28-castro-fred-armisen-comedy-for-musicans",
+            "date": "2026-05-28",
+            "title": "Fred Armisen (comedy for musicans)",
+            "details": "a/a $65.25+ 7pm8pm # (seated - sold out)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-05-29-castro-kim-gordon",
+            "date": "2026-05-29",
+            "title": "Kim Gordon / Sasami",
+            "details": "a/a $48.60 7pm/8pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-05-30-castro-robby-hoffman-two-shows-comedian",
+            "date": "2026-05-30",
+            "title": "Robby Hoffman (two shows - comedian)",
+            "details": "a/a $48+ 6pm/7pm and 9pm/9:30pm # (sold out)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
       }
@@ -1349,7 +1391,9 @@ window.SHOW_EXPLORER_VENUES = {
       "id": "catalyst",
       "name": "Catalyst",
       "displayName": "Catalyst",
-      "aliases": [],
+      "aliases": [
+        "Catalyst Atrium"
+      ],
       "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
@@ -1411,6 +1455,20 @@ window.SHOW_EXPLORER_VENUES = {
             "title": "Eagles Of Death Metal / Paradise Vultures",
             "details": "16+ $45.71 ($54.54 balcony) 8pm/9pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-05-27-catalyst-atrium-sloppy-seconds",
+            "date": "2026-05-27",
+            "title": "Sloppy Seconds",
+            "details": "16+ $30.88 6:30pm/7:30pm # @",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-05-30-catalyst-atrium-pradabagshawty",
+            "date": "2026-05-30",
+            "title": "Pradabagshawty",
+            "details": "16+ $25.48 8:30pm/9pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
       }
@@ -1420,9 +1478,9 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "Catalyst Atrium",
       "displayName": "Catalyst Atrium",
       "aliases": [],
-      "confidence": "review",
-      "mergedInto": "",
-      "status": "unknown",
+      "confidence": "rejected",
+      "mergedInto": "catalyst",
+      "status": "inactive",
       "venueType": "unknown",
       "city": "",
       "region": "",
@@ -1432,7 +1490,7 @@ window.SHOW_EXPLORER_VENUES = {
       "capacity": "",
       "summary": "",
       "accessibilityNotes": "",
-      "reviewNotes": "Crossfile with Catalyst Club",
+      "reviewNotes": "Crossfile with Catalyst Club\nMerged into Catalyst.",
       "links": [
         {
           "type": "theList",
@@ -1469,7 +1527,8 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T04:45:46.072Z"
     },
     "chapel": {
       "id": "chapel",
@@ -1693,7 +1752,7 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "Civic Center",
       "displayName": "Civic Center",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -1735,14 +1794,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T04:42:39.347Z"
     },
     "civic-center-and-market-street-parade": {
       "id": "civic-center-and-market-street-parade",
       "name": "Civic Center and Market Street Parade",
       "displayName": "Civic Center and Market Street Parade",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -1784,7 +1844,8 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T04:42:56.349Z"
     },
     "community-music-center": {
       "id": "community-music-center",
@@ -1847,7 +1908,7 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "Cornerstone",
       "displayName": "Cornerstone",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -1874,6 +1935,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Cornerstone%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://cornerstoneberkeley.com/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -1931,14 +1999,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T04:47:11.799Z"
     },
     "crepe-place": {
       "id": "crepe-place",
       "name": "Crepe Place",
       "displayName": "Crepe Place",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -1965,6 +2034,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Crepe%20Place%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.thecrepeplace.com/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -1980,14 +2056,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T04:50:12.091Z"
     },
     "danny-murry": {
       "id": "danny-murry",
       "name": "Danny Murry's",
       "displayName": "Danny Murry's",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -2036,14 +2113,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T04:52:04.468Z"
     },
     "david": {
       "id": "david",
       "name": "David's",
       "displayName": "David's",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -2085,14 +2163,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T04:53:44.204Z"
     },
     "dna-lounge": {
       "id": "dna-lounge",
       "name": "DNA Lounge",
       "displayName": "DNA Lounge",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -2119,6 +2198,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22DNA%20Lounge%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.dnalounge.com/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -2141,14 +2227,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T04:54:34.455Z"
     },
     "down-home-music": {
       "id": "down-home-music",
       "name": "Down Home Music",
       "displayName": "Down Home Music",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -2175,6 +2262,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Down%20Home%20Music%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.downhomemusic.com/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -2197,14 +2291,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T04:55:23.136Z"
     },
     "eli": {
       "id": "eli",
       "name": "Eli's Mile High Club",
       "displayName": "Eli's Mile High Club",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -2231,6 +2326,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Eli's%20Mile%20High%20Club%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.elismilehighclub.com/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -2246,14 +2348,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T04:56:19.258Z"
     },
     "fillmore": {
       "id": "fillmore",
       "name": "Fillmore",
       "displayName": "Fillmore",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -2280,6 +2383,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Fillmore%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.thefillmore.com/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -2337,14 +2447,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T04:56:56.592Z"
     },
     "finnish-hall": {
       "id": "finnish-hall",
       "name": "Finnish Hall",
       "displayName": "Finnish Hall",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -2386,14 +2497,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T04:58:07.694Z"
     },
     "fireside-lounge": {
       "id": "fireside-lounge",
       "name": "Fireside Lounge",
       "displayName": "Fireside Lounge",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -2435,14 +2547,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:00:03.743Z"
     },
     "fourth-bore": {
       "id": "fourth-bore",
       "name": "Fourth Bore",
       "displayName": "Fourth Bore",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -2484,14 +2597,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:00:41.870Z"
     },
     "fox-theater": {
       "id": "fox-theater",
       "name": "Fox Theater",
       "displayName": "Fox Theater",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -2518,6 +2632,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Fox%20Theater%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://thefoxoakland.com/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -2561,14 +2682,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:01:16.087Z"
     },
     "gilman": {
       "id": "gilman",
       "name": "Gilman",
       "displayName": "Gilman",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -2595,6 +2717,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Gilman%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "yelp",
+          "label": "Yelp",
+          "url": "https://www.yelp.com/biz/924-gilman-berkeley",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -2638,14 +2767,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:03:25.350Z"
     },
     "great-american-music-hall": {
       "id": "great-american-music-hall",
       "name": "Great American Music Hall",
       "displayName": "Great American Music Hall",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -2672,6 +2802,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Great%20American%20Music%20Hall%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://gamh.com/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -2736,14 +2873,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:10:29.267Z"
     },
     "greek-theatre": {
       "id": "greek-theatre",
       "name": "Greek Theatre",
       "displayName": "Greek Theatre",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -2770,6 +2908,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Greek%20Theatre%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://thegreekberkeley.com/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -2813,14 +2958,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:11:26.708Z"
     },
     "guild-theater": {
       "id": "guild-theater",
       "name": "Guild Theater",
       "displayName": "Guild Theater",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -2847,6 +2993,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Guild%20Theater%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://guildtheatre.com/",
+          "confidence": "candidate",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -2862,14 +3015,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:12:11.017Z"
     },
     "henry-j-kaiser-center": {
       "id": "henry-j-kaiser-center",
       "name": "Henry J. Kaiser Center",
       "displayName": "Henry J. Kaiser Center",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -2896,6 +3050,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Henry%20J.%20Kaiser%20Center%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.thehenryj.org/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -2911,14 +3072,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:12:53.980Z"
     },
     "hila-gelato": {
       "id": "hila-gelato",
       "name": "Hila Gelato",
       "displayName": "Hila Gelato",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -2960,14 +3122,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:15:17.330Z"
     },
     "hopmonk-tavern": {
       "id": "hopmonk-tavern",
       "name": "Hopmonk Tavern",
       "displayName": "Hopmonk Tavern",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -2994,6 +3157,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Hopmonk%20Tavern%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.hopmonk.com/livemusic",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -3051,14 +3221,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:16:09.411Z"
     },
     "hotel-utah": {
       "id": "hotel-utah",
       "name": "Hotel Utah",
       "displayName": "Hotel Utah",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -3100,14 +3271,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:18:00.677Z"
     },
     "independent": {
       "id": "independent",
       "name": "Independent",
       "displayName": "Independent",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -3134,6 +3306,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Independent%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.theindependentsf.com/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -3191,14 +3370,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:18:44.859Z"
     },
     "ivy-room": {
       "id": "ivy-room",
       "name": "Ivy Room",
       "displayName": "Ivy Room",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -3225,6 +3405,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Ivy%20Room%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.ivyroom.com",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -3282,14 +3469,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:19:53.603Z"
     },
     "jax-vineyards": {
       "id": "jax-vineyards",
       "name": "Jax Vineyards",
       "displayName": "Jax Vineyards",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -3331,14 +3519,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:21:56.083Z"
     },
     "jury-room": {
       "id": "jury-room",
       "name": "Jury Room",
       "displayName": "Jury Room",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -3365,6 +3554,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Jury%20Room%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/TheJuryRoom",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -3380,14 +3576,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:23:03.333Z"
     },
     "kilowatt": {
       "id": "kilowatt",
       "name": "Kilowatt",
       "displayName": "Kilowatt",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -3414,6 +3611,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Kilowatt%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://kilowattbar.com/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -3436,14 +3640,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:23:40.062Z"
     },
     "knockout": {
       "id": "knockout",
       "name": "Knockout",
       "displayName": "Knockout",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -3470,6 +3675,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Knockout%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://theknockoutsf.com/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -3506,14 +3718,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:24:21.594Z"
     },
     "la-onda": {
       "id": "la-onda",
       "name": "La Onda",
       "displayName": "La Onda",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -3562,14 +3775,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:26:21.660Z"
     },
     "lakeshore-ave-near-mandana-blvd": {
       "id": "lakeshore-ave-near-mandana-blvd",
       "name": "Lakeshore Ave. near Mandana Blvd.",
       "displayName": "Lakeshore Ave. near Mandana Blvd.",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -3611,14 +3825,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:27:52.528Z"
     },
     "lost-church": {
       "id": "lost-church",
       "name": "Lost Church",
       "displayName": "Lost Church",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -3645,6 +3860,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Lost%20Church%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://thelostchurch.org/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -3660,14 +3882,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:28:36.227Z"
     },
     "love-and-luxe": {
       "id": "love-and-luxe",
       "name": "Love & Luxe",
       "displayName": "Love & Luxe",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -3709,14 +3932,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:29:11.082Z"
     },
     "luther-burbank-center": {
       "id": "luther-burbank-center",
       "name": "Luther Burbank Center",
       "displayName": "Luther Burbank Center",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -3743,6 +3967,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Luther%20Burbank%20Center%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://lutherburbankcenter.org/",
+          "confidence": "candidate",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -3758,14 +3989,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:29:41.148Z"
     },
     "make-out-room": {
       "id": "make-out-room",
       "name": "Make-Out Room",
       "displayName": "Make-Out Room",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -3792,6 +4024,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Make-Out%20Room%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://www.makeoutroom.com/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -3807,14 +4046,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:30:50.961Z"
     },
     "masonic": {
       "id": "masonic",
       "name": "Masonic",
       "displayName": "Masonic",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -3841,6 +4081,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Masonic%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.sfmasonic.com/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -3856,14 +4103,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:31:40.229Z"
     },
     "meritage-resort": {
       "id": "meritage-resort",
       "name": "Meritage Resort",
       "displayName": "Meritage Resort",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -3905,14 +4153,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:32:15.680Z"
     },
     "michelle": {
       "id": "michelle",
       "name": "Michelle's",
       "displayName": "Michelle's",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -3954,14 +4203,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:33:22.400Z"
     },
     "mid-bartlett": {
       "id": "mid-bartlett",
       "name": "Mid Bartlett",
       "displayName": "Mid Bartlett",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -4003,14 +4253,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:34:07.827Z"
     },
     "moe": {
       "id": "moe",
       "name": "Moe's Alley",
       "displayName": "Moe's Alley",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -4037,6 +4288,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Moe's%20Alley%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://moesalley.com/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -4052,14 +4310,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:34:41.710Z"
     },
     "mountain-winery": {
       "id": "mountain-winery",
       "name": "Mountain Winery",
       "displayName": "Mountain Winery",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -4086,6 +4345,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Mountain%20Winery%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.mountainwinery.com/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -4185,14 +4451,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:35:30.375Z"
     },
     "neck-of-the-woods": {
       "id": "neck-of-the-woods",
       "name": "Neck of the Woods",
       "displayName": "Neck of the Woods",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -4219,6 +4486,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Neck%20of%20the%20Woods%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.neckofthewoodssf.com/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -4241,14 +4515,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:36:33.403Z"
     },
     "nikko": {
       "id": "nikko",
       "name": "Nikko",
       "displayName": "Nikko",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -4297,14 +4572,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:37:50.847Z"
     },
     "old-princeton-landing": {
       "id": "old-princeton-landing",
       "name": "Old Princeton Landing",
       "displayName": "Old Princeton Landing",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -4353,14 +4629,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:41:45.055Z"
     },
     "park-station": {
       "id": "park-station",
       "name": "Park Station",
       "displayName": "Park Station",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -4402,16 +4679,17 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:42:22.845Z"
     },
     "paviliion": {
       "id": "paviliion",
       "name": "Paviliion",
       "displayName": "Paviliion",
       "aliases": [],
-      "confidence": "review",
-      "mergedInto": "",
-      "status": "unknown",
+      "confidence": "rejected",
+      "mergedInto": "pavilion",
+      "status": "inactive",
       "venueType": "unknown",
       "city": "",
       "region": "",
@@ -4421,7 +4699,7 @@ window.SHOW_EXPLORER_VENUES = {
       "capacity": "",
       "summary": "",
       "accessibilityNotes": "",
-      "reviewNotes": "",
+      "reviewNotes": "Merged into Pavilion.",
       "links": [
         {
           "type": "theList",
@@ -4436,6 +4714,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Paviliion%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.toyotapavilionatconcord.com/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -4451,14 +4736,17 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:44:50.649Z"
     },
     "pavilion": {
       "id": "pavilion",
       "name": "Pavilion",
       "displayName": "Pavilion",
-      "aliases": [],
-      "confidence": "review",
+      "aliases": [
+        "Paviliion"
+      ],
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -4485,6 +4773,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Pavilion%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.toyotapavilionatconcord.com/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -4498,16 +4793,24 @@ window.SHOW_EXPLORER_VENUES = {
             "title": "Lil Wayne / The Game / 2 Chainz",
             "details": "a/a $40.50+ 7pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-05-27-paviliion-kesha",
+            "date": "2026-05-27",
+            "title": "Kesha / Chromeo / Sizzy Rocket",
+            "details": "a/a $35+ ($100.45 ga pit) 7pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:45:14.266Z"
     },
     "phoenix-theater": {
       "id": "phoenix-theater",
       "name": "Phoenix Theater",
       "displayName": "Phoenix Theater",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -4534,6 +4837,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Phoenix%20Theater%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.thephoenixtheater.com/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -4563,14 +4873,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:45:43.389Z"
     },
     "pioneer-saloon": {
       "id": "pioneer-saloon",
       "name": "Pioneer Saloon",
       "displayName": "Pioneer Saloon",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -4612,14 +4923,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:46:23.132Z"
     },
     "point-san-pablo-harbor": {
       "id": "point-san-pablo-harbor",
       "name": "Point San Pablo Harbor",
       "displayName": "Point San Pablo Harbor",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -4661,14 +4973,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:47:40.845Z"
     },
     "regency-ballroom": {
       "id": "regency-ballroom",
       "name": "Regency Ballroom",
       "displayName": "Regency Ballroom",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -4695,6 +5008,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Regency%20Ballroom%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.theregencyballroom.com/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -4724,14 +5044,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:48:32.401Z"
     },
     "rickshaw-stop": {
       "id": "rickshaw-stop",
       "name": "Rickshaw Stop",
       "displayName": "Rickshaw Stop",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -4758,6 +5079,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Rickshaw%20Stop%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://rickshawstop.com/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -4836,14 +5164,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:49:21.023Z"
     },
     "rio-theater": {
       "id": "rio-theater",
       "name": "Rio Theater",
       "displayName": "Rio Theater",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -4870,6 +5199,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Rio%20Theater%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/RioTheatreSantaCruz/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -4885,14 +5221,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:50:17.790Z"
     },
     "ritz": {
       "id": "ritz",
       "name": "Ritz",
       "displayName": "Ritz",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -4919,6 +5256,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Ritz%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://theritzsanjose.com/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -4962,14 +5306,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:51:20.752Z"
     },
     "roxie-movie-house": {
       "id": "roxie-movie-house",
       "name": "Roxie Movie House",
       "displayName": "Roxie Movie House",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -5018,14 +5363,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:52:07.839Z"
     },
     "san-jose-civic-center": {
       "id": "san-jose-civic-center",
       "name": "San Jose Civic Center",
       "displayName": "San Jose Civic Center",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -5052,6 +5398,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22San%20Jose%20Civic%20Center%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://sanjosetheaters.org/theaters/san-jose-civic/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -5067,14 +5420,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:53:14.493Z"
     },
     "senor-sisig": {
       "id": "senor-sisig",
       "name": "Senor Sisig",
       "displayName": "Senor Sisig",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -5123,14 +5477,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:54:32.886Z"
     },
     "shoreline-amphitheatre": {
       "id": "shoreline-amphitheatre",
       "name": "Shoreline Amphitheatre",
       "displayName": "Shoreline Amphitheatre",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -5157,6 +5512,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Shoreline%20Amphitheatre%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.shorelineamphitheatre.com/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -5179,14 +5541,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:55:11.843Z"
     },
     "shuggies": {
       "id": "shuggies",
       "name": "Shuggies",
       "displayName": "Shuggies",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -5228,14 +5591,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:55:49.616Z"
     },
     "smiley": {
       "id": "smiley",
       "name": "Smiley's Saloon",
       "displayName": "Smiley's Saloon",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -5277,14 +5641,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:57:00.422Z"
     },
     "spats": {
       "id": "spats",
       "name": "Spats",
       "displayName": "Spats",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -5311,6 +5676,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Spats%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "yelp",
+          "label": "Yelp",
+          "url": "https://www.yelp.com/biz/spats-berkeley",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -5326,14 +5698,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:58:14.064Z"
     },
     "starry-plough": {
       "id": "starry-plough",
       "name": "Starry Plough",
       "displayName": "Starry Plough",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -5360,6 +5733,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Starry%20Plough%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://thestarryplough.com/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -5403,14 +5783,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:59:01.060Z"
     },
     "stern-grove-festival": {
       "id": "stern-grove-festival",
       "name": "Stern Grove Festival",
       "displayName": "Stern Grove Festival",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -5437,6 +5818,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Stern%20Grove%20Festival%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.sterngrove.org/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -5452,14 +5840,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T05:59:43.461Z"
     },
     "tequila-mockingbird": {
       "id": "tequila-mockingbird",
       "name": "Tequila Mockingbird",
       "displayName": "Tequila Mockingbird",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -5501,14 +5890,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T06:01:36.962Z"
     },
     "thee-stork-club": {
       "id": "thee-stork-club",
       "name": "thee Stork Club",
       "displayName": "thee Stork Club",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -5535,6 +5925,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22thee%20Stork%20Club%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://theestorkclub.com/",
+          "confidence": "likely",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -5578,14 +5975,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T06:02:08.684Z"
     },
     "uc-theater": {
       "id": "uc-theater",
       "name": "UC Theater",
       "displayName": "UC Theater",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -5612,6 +6010,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22UC%20Theater%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.theuctheatre.org/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -5683,14 +6088,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T06:02:44.412Z"
     },
     "up-the-creek-records": {
       "id": "up-the-creek-records",
       "name": "Up the Creek Records",
       "displayName": "Up the Creek Records",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -5717,6 +6123,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Up%20the%20Creek%20Records%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://upthecreekrecords.com/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -5746,14 +6159,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T06:04:51.246Z"
     },
     "uptown-theater": {
       "id": "uptown-theater",
       "name": "Uptown Theater",
       "displayName": "Uptown Theater",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -5780,6 +6194,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Uptown%20Theater%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.uptowntheatrenapa.com/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -5802,14 +6223,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T06:05:31.357Z"
     },
     "used-dreams-night-market": {
       "id": "used-dreams-night-market",
       "name": "Used Dreams Night Market",
       "displayName": "Used Dreams Night Market",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -5851,14 +6273,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T06:07:29.645Z"
     },
     "vinnie": {
       "id": "vinnie",
       "name": "Vinnie's",
       "displayName": "Vinnie's",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -5900,14 +6323,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T06:09:02.185Z"
     },
     "warfield": {
       "id": "warfield",
       "name": "Warfield",
       "displayName": "Warfield",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -5934,6 +6358,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Warfield%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.thewarfieldtheatre.com/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -5970,14 +6401,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T06:09:26.083Z"
     },
     "warriors-stadium": {
       "id": "warriors-stadium",
       "name": "Warriors Stadium",
       "displayName": "Warriors Stadium",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -6004,6 +6436,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Warriors%20Stadium%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.chasecenter.com",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -6019,14 +6458,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T06:12:23.607Z"
     },
     "wildhawk": {
       "id": "wildhawk",
       "name": "Wildhawk",
       "displayName": "Wildhawk",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -6068,14 +6508,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T06:13:15.704Z"
     },
     "willow": {
       "id": "willow",
       "name": "Willow's",
       "displayName": "Willow's",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -6117,14 +6558,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T06:13:41.375Z"
     },
     "winters-tavern": {
       "id": "winters-tavern",
       "name": "Winters Tavern",
       "displayName": "Winters Tavern",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -6151,6 +6593,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Winters%20Tavern%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://winterstavern.com/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -6166,14 +6615,15 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T06:14:17.228Z"
     },
     "x-bar": {
       "id": "x-bar",
       "name": "X Bar",
       "displayName": "X Bar",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -6200,6 +6650,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22X%20Bar%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.thex.bar/",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -6215,7 +6672,8 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T06:15:12.919Z"
     }
   }
 };
